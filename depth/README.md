@@ -1,5 +1,5 @@
 when the class branch is declared with branches variable without being initialized we will have null ref exception :
-![[null_ref_exception.png]]
+![](imgs/null_ref_exception.png)]
 
 to properly define the branch class with a public variable branches and initialized it as new ``list<branch>``
 
@@ -28,9 +28,9 @@ thirdChild.branches.Add(fourthChild);
 ```
 
 example:
-![[branches_children.png]]
+![](imgs/branches_children.png)
 as we can see each branch has exactly one child branch object , to create the exact branches structre as in the assignement :
-![[assignemnet_struct.png]]
+![](imgs/assignemnet_struct.png)]
 we would create 11 objects :
 ```c#
 branch root = new branch();
@@ -76,7 +76,7 @@ void CountDepth(branch b)
 }
 ```
 
-![[each_branch_depth.png]]
+![](imgs/each_branch_depth.png)
 this will print every branch depth , then we just store these results in a list or array and get the biggest number ,that would be the depth of the current structure :
 
 ```c
