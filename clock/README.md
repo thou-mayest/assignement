@@ -31,7 +31,7 @@ to so we get the difference between the two angles , i considered the absolute v
 double lesser_angle = Math.Abs(minute_angle - hour_angle)
 ```
 in this case we will have the angle , but this angle would not be the lesser angle as for example :
-![[clock_arrow_big_angle.png]]
+![[https://github.com/thou-mayest/assignement/blob/master/clock/clock_arrow_big_angle.png]]
 to get the lesser angle i simply check if the angle is bigger than 180° if true i keep the value as is , if it's bigger than 180 i simply substract the angle value from 360 the result is the lesser angle so :
 ```c#
 double lesser_angle = Math.Abs(minute_angle - hour_angle) < 180 ? Math.Abs(minute_angle - hour_angle) : 360 - Math.Abs(minute_angle - hour_angle );
